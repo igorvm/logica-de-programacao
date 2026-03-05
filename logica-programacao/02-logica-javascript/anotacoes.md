@@ -54,11 +54,13 @@ Neste curso será utilizada a linguagem **JavaScript** porque:
 
 # Conceitos aprendidos em JavaScript
 
-## alert()
+
+```javascript
+alert()
 
 A função `alert()` exibe uma mensagem em forma de alerta no navegador.
 
-```javascript
+
 alert("Bem-vindo ao nosso site!");
 
 ---
