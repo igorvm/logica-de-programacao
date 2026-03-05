@@ -40,3 +40,67 @@ Neste curso será utilizada a linguagem **JavaScript** porque:
 - funciona diretamente no navegador
 - permite ver resultados rapidamente
 - é uma ótima porta de entrada para desenvolvimento web e lógica de programação
+
+---
+
+## Preparando o ambiente de desenvolvimento
+
+- Preparei o ambiente de desenvolvimento instalando o **Visual Studio Code** para criar programas utilizando **JavaScript**.
+- Aprendi o conceito de **variáveis**, que servem para guardar informações (como números ou palavras) para serem usadas depois no programa.
+- Utilizei **alert()** para exibir mensagens na tela e **prompt()** para interagir com o usuário, permitindo inserir informações que ficam armazenadas em variáveis.
+- Aprendi a usar **if**, que é uma estrutura condicional que permite ao programa tomar decisões executando um bloco de código apenas quando uma condição é verdadeira.
+
+---
+
+# Conceitos aprendidos em JavaScript
+
+## alert()
+
+A função `alert()` exibe uma mensagem em forma de alerta no navegador.
+
+```javascript
+alert("Bem-vindo ao nosso site!");
+
+---
+
+## Variáveis
+# Variáveis são usadas para armazenar informações que podem ser utilizadas posteriormente no programa.
+
+let nome = "Lua";
+let idade = 25;
+let numeroDeVendas = 50;
+let saldoDisponivel = 1000;
+
+---
+
+## prompt()
+A função prompt() permite solicitar uma informação ao usuário através de uma caixa de diálogo.
+O valor digitado pelo usuário pode ser armazenado em uma variável.
+
+let nomeUsuario = prompt("Qual é o seu nome?");
+
+---
+
+#condições (if)
+A estrutura if permite executar um bloco de código apenas quando uma condição for verdadeira.
+
+let idade = prompt("Qual é a sua idade?");
+
+if (idade >= 18) {
+    alert("Pode tirar a habilitação!");
+}
+
+---
+
+#condições (else)
+O else é usado quando queremos executar outro bloco de código caso a condição do if não seja verdadeira.
+
+let idade = prompt("Qual é a sua idade?");
+
+if (idade >= 18) {
+    alert("Pode tirar a habilitação!");
+} else {
+    alert("Você ainda não pode tirar a habilitação.");
+}
+
+---
